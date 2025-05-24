@@ -1,0 +1,443 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #444;
+    background-color: #007acc;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Profile Picture */
+.profile-picture {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 4px solid #007acc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Me Section */
+#about {
+    font-family: 'Merriweather', serif; 
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-family: 'Playfair Display', serif;
+    color: #007acc;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+#about p {
+    text-align: justify; 
+    margin: 1rem 0;
+}
+
+/* Experience Section */
+#experience {
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#experience h2 {
+    font-family: 'Playfair Display', serif;
+    color: #007acc;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+#experience h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+#experience p {
+    margin: 0.5rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666;
+}
+
+#experience ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#experience ul li {
+    margin-bottom: 0.5rem;
+    list-style: disc;
+}
+
+/* Education Section */
+#education {
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#education h2 {
+    font-family: 'Playfair Display', serif;
+    color: #007acc;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+#education h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+#education p {
+    margin: 0.5rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666;
+}
+
+#education ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#education ul li {
+    margin-bottom: 0.5rem;
+    list-style: disc;
+}
+
+
+/* Skills Section */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    justify-items: center;
+}
+
+.skill img {
+    width: 80px; 
+    height: 80px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.skill img:hover {
+    transform: scale(1.1);
+}
+
+.skill p {
+    font-size: 1.2rem; 
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Projects Section */
+#projects {
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+    font-family: 'Playfair Display', serif;
+    color: #007acc;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+#projects h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+#projects p {
+    margin: 0.5rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666;
+}
+
+#projects a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+#projects div {
+    margin-bottom: 1.5rem;
+}
+
+/* Contact Section */
+#contact {
+    font-family: 'Merriweather', serif;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    color: #007acc;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+#contact p {
+    margin: 0.5rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666;
+}
+
+#contact a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+#contact form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
+
+#contact form button {
+    background: #007acc;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact form button:hover {
+    background: #005ea3;
+}
+
+
+/* Header and Navigation */
+header {
+    background: linear-gradient(45deg, #007acc, #007acc);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color: #007acc; 
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+    margin: 0;
+    padding: 0.5rem 1rem; 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* Landing Section */
+.landing h1 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    font-weight: 700;
+}
+
+.landing p {
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0.25rem 0;
+}
+
+/* Sections */
+section {
+    padding-top: 60px;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+section h2 {
+    color: #007acc;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 0.5rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer ul li a:hover {
+    color: #00d4ff;
+}
+
+/* Buttons */
+button {
+    background: #007acc;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #005ea3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+}
